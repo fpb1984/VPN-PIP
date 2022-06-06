@@ -1,15 +1,11 @@
 #!/bin/bash
- 
-# init only
+
 CONNECT_PID=""
-RUNNING=""
- 
-# Provide required parameters
-VPN_HOST="vpnkcc.kcl.cl"
+RUNNING="" 
+VPN_HOST="vpnkcc.kcl.cl:443"
 VPN_USER="r.picon_redhat"
 VPN_PASS="Lurgd#4982j"
 FORTICLIENT_PATH="opt/forticlient-sslvpn/64bit/forticlientsslvpn_cli"
-
  
 # Checks whether vpn is connected
 function checkConnect {
@@ -21,7 +17,7 @@ function checkConnect {
 function startConnect {
  
     # start vpn connection and grab its pid (expect script returns spawned vpn conn pid)
-    CONNECT_PID="connect"
+    CONNECT_PID=connect
     eval $CONNECT_PID
 }
  
