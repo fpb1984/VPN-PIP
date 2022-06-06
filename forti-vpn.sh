@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
-CONNECT_PID=""
-RUNNING="" 
+set CONNECT_PID=""
+set RUNNING="" 
 set VPN_HOST="vpnkcc.kcl.cl:443"
 set VPN_USER="r.picon_redhat"
 set VPN_PASS="Lurgd#4982j"
