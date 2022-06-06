@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -x
 CONNECT_PID=""
 RUNNING="" 
 set VPN_HOST="vpnkcc.kcl.cl:443"
