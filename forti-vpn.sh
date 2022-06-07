@@ -6,9 +6,9 @@ RUNNING=""
  
 # Provide required parameters
 FORTICLIENT_PATH="opt/forticlient-sslvpn/64bit/forticlientsslvpn_cli"
-VPN_HOST="<FORTI_HOST>"
-VPN_USER="<FORTI_USERNAME>"
-VPN_PASS="<FORTI_PASSWORD>"
+VPN_HOST="vpnkcc.kcl.cl:443"
+VPN_USER="r.picon_redhat"
+VPN_PASS="Lurgd#4982j"
  
 # Checks whether vpn is connected
 function checkConnect {
