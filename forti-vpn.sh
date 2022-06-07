@@ -7,8 +7,8 @@ VPN_PASS="Lurgd#4982j"
 FORTICLIENT_PATH="opt/forticlient-sslvpn/64bit/forticlientsslvpn_cli"
 
 function checkConnect {
-    ps -p $CONNECT_PID &> /dev/null
-    RUNNING=$?
+	ps -p $CONNECT_PID &> /dev/null
+	RUNNING=$?
 }
 
 function startConnect {
