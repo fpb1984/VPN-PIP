@@ -8,7 +8,7 @@ RUNNING=""
 FORTICLIENT_PATH="/home/vsts/work/1/vpn/opt/forticlient-sslvpn/64bit/forticlientsslvpn_cli"
 VPN_HOST="vpnkcc.kcl.cl:443"
 VPN_USER="r.picon_redhat"
-VPN_PASS="Lurgd#4982j"
+VPN_PASS="UCp0xgCo4T"
  
 # Checks whether vpn is connected
 function checkConnect {
